@@ -22,9 +22,9 @@ public class CharacterMovement : MonoBehaviour {
         }
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
-		bool s = false;
-		if (s) {
-			Debug.Log(s);	
+		bool w = false;
+		if (!w) {
+			
 		}
     }
 	
