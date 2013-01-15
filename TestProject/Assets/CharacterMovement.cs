@@ -8,6 +8,7 @@ public class CharacterMovement : MonoBehaviour {
     public float gravity = 20.0F;
     private Vector3 moveDirection = Vector3.zero;
    
+	float x;
 	void Update() {
         CharacterController controller = GetComponent<CharacterController>();
         if (controller.isGrounded) {
