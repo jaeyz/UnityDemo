@@ -10,6 +10,7 @@ public class CharacterMovement : MonoBehaviour {
    
 	float x;
 	void Update() {
+		float x;
         CharacterController controller = GetComponent<CharacterController>();
         if (controller.isGrounded) {
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
