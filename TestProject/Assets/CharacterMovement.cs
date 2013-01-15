@@ -22,6 +22,10 @@ public class CharacterMovement : MonoBehaviour {
         }
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
+		bool w = false;
+		if (!w) {
+			
+		}
     }
 	
 }
